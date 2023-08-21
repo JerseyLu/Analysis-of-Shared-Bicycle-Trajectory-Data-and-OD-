@@ -14,11 +14,11 @@
 
 **Data source:**
 
-Multisource data including BS order data,  BS trajectories data, BS electric fence data, and POI data were used for subsequent modeling and analysis. The BS order data,  trajectories data, and electric fence data were sourced from the official Digital China Innovation Contest (DCIC 2021) websites. In the realm of BS order data, each record includes bicycle ID, latitude, longitude, lock status, and update time. These records are generated upon user-initiated bicycle pick-up or return, subsequently transmitted to the server, enabling comprehensive tracking of spatiotemporal activity. The dataset comprises 198,382 journeys occurring during the morning peak hours (6:00–10:00) on five consecutive weekdays from December 21 to 25, 2020. Despite the winter timeframe, the local average maximum temperature stands at around 20°C, providing favorable conditions for cycling activities.
+Multisource data including BS order data,  BS trajectories data, BS electric fence data, and POI data were used for subsequent modeling and analysis. The BS order data,  trajectories data, and electric fence data were sourced from the official Digital China Innovation Contest (DCIC 2021) websites. In the realm of BS order data, each record includes bicycle ID, latitude, longitude, lock status, and update time. These records are generated upon user-initiated bicycle pick-up or return, and subsequently transmitted to the server, enabling comprehensive tracking of spatiotemporal activity. The dataset comprises 198,382 journeys occurring during the morning peak hours (6:00–10:00) on five consecutive weekdays from December 21 to 25, 2020. Despite the winter timeframe, the local average maximum temperature stands at around 20°C, providing favorable conditions for cycling activities.
 
 The POI data used in this study was sourced from Amap (https://www.amap.com), a popular mapping and navigation service in China, like Google Maps. Previous research has demonstrated that POI data has numerous applications in urban land use classification and travel purpose recognition. Therefore, combining POI data with human mobility data can provide a better understanding of daily activity patterns. Using Amap's API, approximately 3,428 POI data points were obtained within Xiamen Island. Each POI data point includes information such as name, type, longitude and latitude, and the corresponding region. To explore daily activity patterns and travel purposes, the POI data was categorized into 9 categories, including 'Transports', 'Shopping', 'Culture', 'Sports', 'Life', 'Landscape', 'Restaurant', 'Meditation', 'Entrepreneur'.
 
-<img width="506" alt="Data source" src="https://github.com/JerseyLu/Shared-Bicycle-Activity-Patterns-Hotspots-Coldspots/assets/104020492/1aab8494-522a-464d-838c-6677f02e5ebd">
+<img width="400" alt="Data source" src="https://github.com/JerseyLu/Shared-Bicycle-Activity-Patterns-Hotspots-Coldspots/assets/104020492/1aab8494-522a-464d-838c-6677f02e5ebd">
 
 
 **Task1:**Urban Activity Patterns Analysis
@@ -53,13 +53,13 @@ Fig.4 showcases how parking fences are distributed among different main function
 
 *Figure4: The distribution of parking fences across various main functions(POIs)*
 
-![Chord](./Chord.png)
+![Chord](./picture/Chord.png)
 
 *Figure5: A chord diagram of the mobility of bike-sharing between different POI types. Nodes in distinct colors represent different activity types, with node lengths denoting their respective proportions. The width of the central connecting lines reflects the volume of transfers between these activities.*
 
 Fig.5 illustrates the transitions between diverse activities over these days. Our analysis revealed the bike-sharing distribution across favored Points of Interest (POIs): Transportation (19.48%), Lifestyle (12.89%), Corporate (11.56%), and Dining (11.42%). Notably, 'Transport' boasts the largest share among all activity categories, highlighting the role of bike-sharing in linking transport hubs to a variety of activity destinations.
 
-![POI counts](./picture/POI_counts.svg)
+![POIcounts](./picture/POIcounts.svg)
 
 *Figure6: The distribution of bike-sharing journeys based on starting and ending POIs.*
 
