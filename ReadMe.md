@@ -23,14 +23,14 @@ The POI data used in this study was sourced from Amap (https://www.amap.com), a 
 
 **Task1:**Urban Activity Patterns Analysis
 
-First, we processed all shared bicycle order data into OD data(O means origin, D means destination), and then visualize it. The trajectories are colored based on the data count, indicating the intensity of bike travel between different origin-destination pairs.
+First, we processed all shared bicycle order data into OD data(O means origin, D means destination), and then visualized it. The trajectories are colored based on the data count, indicating the intensity of bike travel between different origin-destination pairs.
 
 ![OD Map](./picture/OD_map.svg)
 
 
 *Figure1: BS trajectories Map* 
 
-Fig.2(a) presents a bar chart that illustrates the daily order counts over the span of five days. Notably, there was a significant decrease in daily order counts on the 23rd of December. This decline can be attributed to the presence of moderate rainfall, which rendered cycling less favorable. Consequently, the subsequent analysis will focus solely on the OD data from the remaining four weekdays. The highest volume of orders was recorded during the time frame of 08:00 to 08:15, as depicted in Fig.2(b). Further examining transportation patterns, Fig.3(c) reveals that approximately 75% of the travel distances using the BS mode are limited to within 1,000 meters. This outcome underscores the role of BS as a primary mode of transportation for covering the first or last mile of journeys. Moreover, Figure 3(d) displays the distribution of trip durations. While certain trips extend beyond 20 minutes, the majority (75%) of trip durations fall within the 10-minute range.
+Fig.2(a) presents a bar chart that illustrates the daily order counts over the span of five days. Notably, there was a significant decrease in daily order counts on the 23rd of December. This decline can be attributed to the presence of moderate rainfall, which rendered cycling less favorable. Consequently, the subsequent analysis will focus solely on the OD data from the remaining four weekdays. The highest volume of orders was recorded from 08:00 to 08:15, as depicted in Fig.2(b). Further examining transportation patterns, Fig.3(c) reveals that approximately 75% of the travel distances using the BS mode are limited to within 1,000 meters. This outcome underscores the role of BS as a primary mode of transportation for covering the first or last mile of journeys. Moreover, Figure 3(d) displays the distribution of trip durations. While certain trips extend beyond 20 minutes, the majority (75%) of trip durations fall within the 10-minute range.
 
 
 | ![Daily distribution](./picture/Daily distribution.svg) | ![Temporal distribution](./picture/Temporal distribution.svg) |
@@ -85,11 +85,11 @@ The top 10 hotspots and coldspots among all parking fences are shown in the Fig7
 
 Gaussian Mixture Model (GMM) was applied to categorize parking points based on "density" and the average number of bikes at each parking point. To classify the BS hotspots, the three resulting clusters are labeled as follows: 'Low_overloading,' 'Semi_overloading,' and 'High_overloading.' These labels capture the varying degrees of demand for shared bicycles at different parking points, aiding in the identification of patterns related to bicycle usage and demand dynamics. The choice of cluster labels is guided by both the clustering results and domain knowledge, offering meaningful insights into the distribution of bike usage patterns across different parking points during the study period.
 
-![image-20230821162244099](../../../../Library/Application Support/typora-user-images/image-20230821162244099.png)
+![hotspots_map](./picture/hotspots_map.png)
 
 *Figure8: Hotspots classification result*
 
-![image-20230821174003466](../../../../Library/Application Support/typora-user-images/image-20230821174003466.png)
+![coldspots_map](./picture/coldspots_map.png)
 
 *Figure9: Coldspots classification result*
 
