@@ -18,13 +18,15 @@ Multisource data including BS order data,  BS trajectories data, BS electric fen
 
 The POI data used in this study was sourced from Amap (https://www.amap.com), a popular mapping and navigation service in China, like Google Maps. Previous research has demonstrated that POI data has numerous applications in urban land use classification and travel purpose recognition. Therefore, combining POI data with human mobility data can provide a better understanding of daily activity patterns. Using Amap's API, approximately 3,428 POI data points were obtained within Xiamen Island. Each POI data point includes information such as name, type, longitude and latitude, and the corresponding region. To explore daily activity patterns and travel purposes, the POI data was categorized into 9 categories, including 'Transports', 'Shopping', 'Culture', 'Sports', 'Life', 'Landscape', 'Restaurant', 'Meditation', 'Entrepreneur'.
 
-![Data source](../../../bike-sharing/picture/Data source.png)
+<img width="506" alt="Data source" src="https://github.com/JerseyLu/Shared-Bicycle-Activity-Patterns-Hotspots-Coldspots/assets/104020492/1aab8494-522a-464d-838c-6677f02e5ebd">
+
 
 **Task1:**Urban Activity Patterns Analysis
 
 First, we processed all shared bicycle order data into OD data(O means origin, D means destination), and then visualize it. The trajectories are colored based on the data count, indicating the intensity of bike travel between different origin-destination pairs.
 
-![OD_map](../../../bike-sharing/picture/OD_map.svg){width=50%}
+![Uploading OD_map.svg…]()
+
 *Figure1: BS trajectories Map* 
 
 Fig.2(a) presents a bar chart that illustrates the daily order counts over the span of five days. Notably, there was a significant decrease in daily order counts on the 23rd of December. This decline can be attributed to the presence of moderate rainfall, which rendered cycling less favorable. Consequently, the subsequent analysis will focus solely on the OD data from the remaining four weekdays. The highest volume of orders was recorded during the time frame of 08:00 to 08:15, as depicted in Fig.2(b). Further examining transportation patterns, Fig.3(c) reveals that approximately 75% of the travel distances using the BS mode are limited to within 1,000 meters. This outcome underscores the role of BS as a primary mode of transportation for covering the first or last mile of journeys. Moreover, Figure 3(d) displays the distribution of trip durations. While certain trips extend beyond 20 minutes, the majority (75%) of trip durations fall within the 10-minute range.
