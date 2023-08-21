@@ -18,14 +18,14 @@ Multisource data including BS order data,  BS trajectories data, BS electric fen
 
 The POI data used in this study was sourced from Amap (https://www.amap.com), a popular mapping and navigation service in China, like Google Maps. Previous research has demonstrated that POI data has numerous applications in urban land use classification and travel purpose recognition. Therefore, combining POI data with human mobility data can provide a better understanding of daily activity patterns. Using Amap's API, approximately 3,428 POI data points were obtained within Xiamen Island. Each POI data point includes information such as name, type, longitude and latitude, and the corresponding region. To explore daily activity patterns and travel purposes, the POI data was categorized into 9 categories, including 'Transports', 'Shopping', 'Culture', 'Sports', 'Life', 'Landscape', 'Restaurant', 'Meditation', 'Entrepreneur'.
 
-<img width="400" alt="Data source" src="https://github.com/JerseyLu/Shared-Bicycle-Activity-Patterns-Hotspots-Coldspots/assets/104020492/1aab8494-522a-464d-838c-6677f02e5ebd">
+<img width="500" alt="Data source" src="https://github.com/JerseyLu/Shared-Bicycle-Activity-Patterns-Hotspots-Coldspots/assets/104020492/1aab8494-522a-464d-838c-6677f02e5ebd">
 
 
 **Task1:**Urban Activity Patterns Analysis
 
 First, we processed all shared bicycle order data into OD data(O means origin, D means destination), and then visualized it. The trajectories are colored based on the data count, indicating the intensity of bike travel between different origin-destination pairs.
 
-![OD Map](./picture/OD_map.svg)
+<img src="./picture/OD_map.svg" alt="Chord" width="600" height="500">
 
 
 *Figure1: BS trajectories Map* 
@@ -49,17 +49,19 @@ Fig.3 illustrates the spatial distribution of bike-sharing journeys during the m
 
 Fig.4 showcases how parking fences are distributed among different main function categories(POIs). Each bar corresponds to a specific main function. Notably, the Transportation Service category stands out with 2,420 parking fences, indicating that shared bicycles play a significant role as a primary mode of commuting in urban transportation.
 
-![Distribution_POIn](./picture/Distribution_POIn.svg)
+<img src="./picture/Distribution_POIn.svg" alt="Distribution_POIn" width="600" height="500">
 
 *Figure4: The distribution of parking fences across various main functions(POIs)*
 
-![Chord](./picture/Chord.png)
+
+<img src="./picture/Chord.png" alt="Chord" width="600" height="500">
 
 *Figure5: A chord diagram of the mobility of bike-sharing between different POI types. Nodes in distinct colors represent different activity types, with node lengths denoting their respective proportions. The width of the central connecting lines reflects the volume of transfers between these activities.*
 
 Fig.5 illustrates the transitions between diverse activities over these days. Our analysis revealed the bike-sharing distribution across favored Points of Interest (POIs): Transportation (19.48%), Lifestyle (12.89%), Corporate (11.56%), and Dining (11.42%). Notably, 'Transport' boasts the largest share among all activity categories, highlighting the role of bike-sharing in linking transport hubs to a variety of activity destinations.
 
-![POIcounts](./picture/POIcounts.svg)
+<img src="./picture/POIcounts.svg" alt="POIcounts" width="600" height="500">
+
 
 *Figure6: The distribution of bike-sharing journeys based on starting and ending POIs.*
 
@@ -77,7 +79,8 @@ Applying latitude and longitude distance matching methods to calculate the dista
 
 The top 10 hotspots and coldspots among all parking fences are shown in Fig7.
 
-![冷热点识别](./picture/冷热点识别.png)
+<img src="./picture/冷热点识别.png" alt="冷热点识别" width="600" height="500">
+
 
 *Figure7:The counts of Hotspots and Coldspots*
 
