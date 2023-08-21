@@ -33,10 +33,10 @@ First, we processed all shared bicycle order data into OD data(O means origin, D
 Fig.2(a) presents a bar chart that illustrates the daily order counts over the span of five days. Notably, there was a significant decrease in daily order counts on the 23rd of December. This decline can be attributed to the presence of moderate rainfall, which rendered cycling less favorable. Consequently, the subsequent analysis will focus solely on the OD data from the remaining four weekdays. The highest volume of orders was recorded from 08:00 to 08:15, as depicted in Fig.2(b). Further examining transportation patterns, Fig.3(c) reveals that approximately 75% of the travel distances using the BS mode are limited to within 1,000 meters. This outcome underscores the role of BS as a primary mode of transportation for covering the first or last mile of journeys. Moreover, Figure 3(d) displays the distribution of trip durations. While certain trips extend beyond 20 minutes, the majority (75%) of trip durations fall within the 10-minute range.
 
 
-| ![Daily distribution](./picture/Daily distribution.svg) | ![Temporal distribution](./picture/Temporal distribution.svg) |
+| ![Daily distribution](./picture/Daily_distribution.svg) | ![Temporal distribution](./picture/Temporal_distribution.svg) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                    (a) Daily distribution                    |                  (b) Temporal distribution                   |
-| ![Travel distance distribution](./picture/Travel distance distribution.svg) | ![Travel time distribution](./picture/Travel time distribution.svg) |
+| ![Travel distance distribution](./picture/Travel_distance_distribution.svg) | ![Travel time distribution](./picture/Travel_time_distribution.svg) |
 |               (c) Travel distance distribution               |                 (d) Travel time distribution                 |
 
 *Figure2: BS trip characteristics* 
@@ -59,7 +59,7 @@ Fig.4 showcases how parking fences are distributed among different main function
 
 Fig.5 illustrates the transitions between diverse activities over these days. Our analysis revealed the bike-sharing distribution across favored Points of Interest (POIs): Transportation (19.48%), Lifestyle (12.89%), Corporate (11.56%), and Dining (11.42%). Notably, 'Transport' boasts the largest share among all activity categories, highlighting the role of bike-sharing in linking transport hubs to a variety of activity destinations.
 
-![POI counts](./picture/POI counts.svg)
+![POI counts](./picture/POI_counts.svg)
 
 *Figure6: The distribution of bike-sharing journeys based on starting and ending POIs.*
 
@@ -75,11 +75,11 @@ Applying latitude and longitude distance matching methods to calculate the dista
 
 ***Density***: Represents the ratio of the remaining shared bicycles at each parking point to their parking capacity during a specific time interval.
 
-The top 10 hotspots and coldspots among all parking fences are shown in the Fig7.
+The top 10 hotspots and coldspots among all parking fences are shown in Fig7.
 
 ![冷热点识别](./picture/冷热点识别.png)
 
-*Figure7:The counts of Hostspots and Coldspots*
+*Figure7:The counts of Hotspots and Coldspots*
 
 **Task3: Classification of BS Hotspots and Coldspots**
 
@@ -97,6 +97,6 @@ The Wushipu Metro Station and Hubin East Road are both situated within Xiamen's 
 
 In conclusion, the main findings of this study are as follows:
 
-1. The research has identified the presence of both bicycle sharing hotspots and coldspots, with regard to bicycle pick-up and return locations.
+1. The research has identified the presence of both bicycle-sharing hotspots and coldspots, with regard to bicycle pick-up and return locations.
 2. The outcomes of hotspot and coldspot identification underscore the significant role that bicycle sharing plays in integrating with metro transit systems. Furthermore, there is a higher frequency of bicycle trips originating from metro stations.
 3. The categorization of 31 high-overloading hotspots and 742 high-underloading coldspots has illuminated the imbalance between supply and demand within these hotspots.
