@@ -25,14 +25,15 @@ The POI data used in this study was sourced from Amap (https://www.amap.com), a 
 
 First, we processed all shared bicycle order data into OD data(O means origin, D means destination), and then visualize it. The trajectories are colored based on the data count, indicating the intensity of bike travel between different origin-destination pairs.
 
-![Uploading OD_map.svg…]()
+![OD Map](file:///Users/jerseylu/Downloads/bike-sharing/picture/OD_map.svg)
+
 
 *Figure1: BS trajectories Map* 
 
 Fig.2(a) presents a bar chart that illustrates the daily order counts over the span of five days. Notably, there was a significant decrease in daily order counts on the 23rd of December. This decline can be attributed to the presence of moderate rainfall, which rendered cycling less favorable. Consequently, the subsequent analysis will focus solely on the OD data from the remaining four weekdays. The highest volume of orders was recorded during the time frame of 08:00 to 08:15, as depicted in Fig.2(b). Further examining transportation patterns, Fig.3(c) reveals that approximately 75% of the travel distances using the BS mode are limited to within 1,000 meters. This outcome underscores the role of BS as a primary mode of transportation for covering the first or last mile of journeys. Moreover, Figure 3(d) displays the distribution of trip durations. While certain trips extend beyond 20 minutes, the majority (75%) of trip durations fall within the 10-minute range.
 
 
-| ![Image 1](/Users/jerseylu/Downloads/bike-sharing/picture/Daily distribution.svg) | ![Image 2](/Users/jerseylu/Downloads/bike-sharing/picture/Temporal distribution.svg) |
+| ![Daily distribution](https://github.com/JerseyLu/Shared-Bicycle-Activity-Patterns-Hotspots-Coldspots/assets/104020492/907da90a-ce05-4311-b331-b1a0cf060b61) | ![Image 2](/Users/jerseylu/Downloads/bike-sharing/picture/Temporal distribution.svg) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                    (a) Daily distribution                    |                  (b) Temporal distribution                   |
 | ![Image 3](/Users/jerseylu/Downloads/bike-sharing/picture/Travel distance distribution.svg) | ![Image 4](/Users/jerseylu/Downloads/bike-sharing/picture/Travel time distribution.svg) |
