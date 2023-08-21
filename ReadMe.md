@@ -25,7 +25,7 @@ The POI data used in this study was sourced from Amap (https://www.amap.com), a 
 
 First, we processed all shared bicycle order data into OD data(O means origin, D means destination), and then visualize it. The trajectories are colored based on the data count, indicating the intensity of bike travel between different origin-destination pairs.
 
-![OD Map](file:///Users/jerseylu/Downloads/bike-sharing/picture/OD_map.svg)
+![OD Map](./picture/OD_map.svg)
 
 
 *Figure1: BS trajectories Map* 
@@ -33,33 +33,33 @@ First, we processed all shared bicycle order data into OD data(O means origin, D
 Fig.2(a) presents a bar chart that illustrates the daily order counts over the span of five days. Notably, there was a significant decrease in daily order counts on the 23rd of December. This decline can be attributed to the presence of moderate rainfall, which rendered cycling less favorable. Consequently, the subsequent analysis will focus solely on the OD data from the remaining four weekdays. The highest volume of orders was recorded during the time frame of 08:00 to 08:15, as depicted in Fig.2(b). Further examining transportation patterns, Fig.3(c) reveals that approximately 75% of the travel distances using the BS mode are limited to within 1,000 meters. This outcome underscores the role of BS as a primary mode of transportation for covering the first or last mile of journeys. Moreover, Figure 3(d) displays the distribution of trip durations. While certain trips extend beyond 20 minutes, the majority (75%) of trip durations fall within the 10-minute range.
 
 
-| ![Daily distribution](https://github.com/JerseyLu/Shared-Bicycle-Activity-Patterns-Hotspots-Coldspots/assets/104020492/907da90a-ce05-4311-b331-b1a0cf060b61) | ![Image 2](/Users/jerseylu/Downloads/bike-sharing/picture/Temporal distribution.svg) |
+| ![Daily distribution](./picture/Daily distribution.svg) | ![Temporal distribution](./picture/Temporal distribution.svg) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                    (a) Daily distribution                    |                  (b) Temporal distribution                   |
-| ![Image 3](/Users/jerseylu/Downloads/bike-sharing/picture/Travel distance distribution.svg) | ![Image 4](/Users/jerseylu/Downloads/bike-sharing/picture/Travel time distribution.svg) |
+| ![Travel distance distribution](./picture/Travel distance distribution.svg) | ![Travel time distribution](./picture/Travel time distribution.svg) |
 |               (c) Travel distance distribution               |                 (d) Travel time distribution                 |
 
 *Figure2: BS trip characteristics* 
 
 Fig.3 illustrates the spatial distribution of bike-sharing journeys during the morning peak across four days. Notably, the areas with high travel density coincide with the presence of subway lines, as evident from the visual alignment. Moreover, the count of bike-sharing orders exhibited a remarkable surge between 8:00 and 9:00, coinciding with the principal commuting window for both office workers and students. 
 
-![heatmap](../../../bike-sharing/picture/heatmap.svg)
+![heatmap](./picture/heatmap.svg)
 
 *Figure3: The spatial distribution of bike-sharing journeys during different time periods in the morning peak. From top to bottom are the origin and destination maps.* 
 
 Fig.4 showcases how parking fences are distributed among different main function categories(POIs). Each bar corresponds to a specific main function. Notably, the Transportation Service category stands out with 2,420 parking fences, indicating that shared bicycles play a significant role as a primary mode of commuting in urban transportation.
 
-![Distribution_POIn](../../../bike-sharing/picture/Distribution_POIn.svg)
+![Distribution_POIn](./picture/Distribution_POIn.svg)
 
 *Figure4: The distribution of parking fences across various main functions(POIs)*
 
-![Chord](../../../bike-sharing/picture/Chord.png)
+![Chord](./Chord.png)
 
 *Figure5: A chord diagram of the mobility of bike-sharing between different POI types. Nodes in distinct colors represent different activity types, with node lengths denoting their respective proportions. The width of the central connecting lines reflects the volume of transfers between these activities.*
 
 Fig.5 illustrates the transitions between diverse activities over these days. Our analysis revealed the bike-sharing distribution across favored Points of Interest (POIs): Transportation (19.48%), Lifestyle (12.89%), Corporate (11.56%), and Dining (11.42%). Notably, 'Transport' boasts the largest share among all activity categories, highlighting the role of bike-sharing in linking transport hubs to a variety of activity destinations.
 
-![POI counts](../../../bike-sharing/picture/POI counts.svg)
+![POI counts](./picture/POI counts.svg)
 
 *Figure6: The distribution of bike-sharing journeys based on starting and ending POIs.*
 
@@ -77,7 +77,7 @@ Applying latitude and longitude distance matching methods to calculate the dista
 
 The top 10 hotspots and coldspots among all parking fences are shown in the Fig7.
 
-![冷热点识别](../../../bike-sharing/picture/冷热点识别.png)
+![冷热点识别](./picture/冷热点识别.png)
 
 *Figure7:The counts of Hostspots and Coldspots*
 
