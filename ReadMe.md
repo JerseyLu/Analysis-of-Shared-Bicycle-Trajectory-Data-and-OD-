@@ -21,11 +21,11 @@ The POI data used in this study was sourced from Amap (https://www.amap.com), a 
 <img width="500" alt="Data source" src="https://github.com/JerseyLu/Shared-Bicycle-Activity-Patterns-Hotspots-Coldspots/assets/104020492/1aab8494-522a-464d-838c-6677f02e5ebd">
 
 
-**Task1:**Urban Activity Patterns Analysis
+**Task1:** Urban Activity Patterns Analysis
 
 First, we processed all shared bicycle order data into OD data(O means origin, D means destination), and then visualized it. The trajectories are colored based on the data count, indicating the intensity of bike travel between different origin-destination pairs.
 
-<img src="./picture/OD_map.svg" alt="Chord" width="600" height="500">
+<img src="./picture/OD_map.svg" alt="OD_map" width="600" height="500">
 
 
 *Figure1: BS trajectories Map* 
@@ -79,7 +79,7 @@ Applying latitude and longitude distance matching methods to calculate the dista
 
 The top 10 hotspots and coldspots among all parking fences are shown in Fig7.
 
-<img src="./picture/冷热点识别.png" alt="冷热点识别" width="600" height="500">
+<img src="./picture/hotspots_count" alt="hotspots_count" width="600" height="500">
 
 
 *Figure7:The counts of Hotspots and Coldspots*
@@ -91,10 +91,6 @@ Gaussian Mixture Model (GMM) was applied to categorize parking points based on "
 ![hotspots_map](./picture/hotspots_map.png)
 
 *Figure8: Hotspots classification result*
-
-![coldspots_map](./picture/coldspots_map.png)
-
-*Figure9: Coldspots classification result*
 
 The Wushipu Metro Station and Hubin East Road are both situated within Xiamen's bustling commercial hub, surrounded by numerous corporate offices, shopping malls, and various amenities. The community activities in the area are vibrant as well. Consequently, the service provider has strategically positioned a dense array of shared bicycle parking stations. However, the abundance of station placements could inadvertently disperse resources, resulting in diminished usage rates for each station. People may naturally gravitate toward stations that are closer to their points of origin or destinations, inadvertently overlooking nearby stations. This phenomenon could even manifest in popular districts, where certain stations experience comparatively lower utilization rates.
 
