@@ -60,7 +60,7 @@ Fig.4 showcases how parking fences are distributed among different main function
 
 Fig.5 illustrates the transitions between diverse activities over these days. Our analysis revealed the bike-sharing distribution across favored Points of Interest (POIs): Transportation (19.48%), Lifestyle (12.89%), Corporate (11.56%), and Dining (11.42%). Notably, 'Transport' boasts the largest share among all activity categories, highlighting the role of bike-sharing in linking transport hubs to a variety of activity destinations.
 
-<img src="./picture/POIcounts.svg" alt="POIcounts" width="600" height="500">
+<img src="./picture/POI_counts.svg" alt="POIcounts" width="600" height="500">
 
 
 *Figure6: The distribution of bike-sharing journeys based on starting and ending POIs.*
@@ -88,7 +88,7 @@ The top 10 hotspots and coldspots among all parking fences are shown in Fig7.
 
 Gaussian Mixture Model (GMM) was applied to categorize parking points based on "density" and the average number of bikes at each parking point. To classify the BS hotspots, the three resulting clusters are labeled as follows: 'Low_overloading,' 'Semi_overloading,' and 'High_overloading.' These labels capture the varying degrees of demand for shared bicycles at different parking points, aiding in the identification of patterns related to bicycle usage and demand dynamics. The choice of cluster labels is guided by both the clustering results and domain knowledge, offering meaningful insights into the distribution of bike usage patterns across different parking points during the study period.
 
-![hotspots_map](./picture/hotspots_map.svg)
+<img src="./picture/hotspots_map.svg" alt="hotspots_map" width="600" height="500">
 
 *Figure8: Hotspots classification result*
 
