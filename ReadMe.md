@@ -3,8 +3,8 @@
 **Task**：
 
 1. Urban Activity Patterns Analysis
-2. Identification of bike-sharing hotspots and coldspots
-3. Classification of bike-sharing hotspots and coldspots
+2. Identification of bike-sharing hotspots 
+3. Classification of bike-sharing hotspots 
 
 **Challenge：**
 
@@ -84,7 +84,7 @@ The top 10 hotspots and coldspots among all parking fences are shown in Fig7.
 
 *Figure7:The counts of Hotspots and Coldspots*
 
-**Task3: Classification of BS Hotspots and Coldspots**
+**Task3: Classification of BS Hotspots**
 
 Gaussian Mixture Model (GMM) was applied to categorize parking points based on "density" and the average number of bikes at each parking point. To classify the BS hotspots, the three resulting clusters are labeled as follows: 'Low_overloading,' 'Semi_overloading,' and 'High_overloading.' These labels capture the varying degrees of demand for shared bicycles at different parking points, aiding in the identification of patterns related to bicycle usage and demand dynamics. The choice of cluster labels is guided by both the clustering results and domain knowledge, offering meaningful insights into the distribution of bike usage patterns across different parking points during the study period.
 
