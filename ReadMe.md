@@ -102,12 +102,15 @@ In conclusion, the main findings of this study are as follows:
 
 
 **Citation**
+
 Please refer to our paper.
+
+```bibtex
 @misc{zhang2024navigating,
-      title={Navigating the Congestion Maze: Geospatial Analysis and Travel Behavior Insights for Dockless Bike-Sharing Systems in Xiamen}, 
-      author={Xuxilu Zhang and Lingqi Gu and Nan Zhao},
-      year={2024},
-      eprint={2401.03987},
-      archivePrefix={arXiv},
-      primaryClass={stat.AP}
+  title={Navigating the Congestion Maze: Geospatial Analysis and Travel Behavior Insights for Dockless Bike-Sharing Systems in Xiamen},
+  author={Zhang, Xuxilu and Gu, Lingqi and Zhao, Nan},
+  year={2024},
+  eprint={2401.03987},
+  archivePrefix={arXiv},
+  primaryClass={stat.AP}
 }
