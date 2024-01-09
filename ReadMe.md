@@ -99,3 +99,15 @@ In conclusion, the main findings of this study are as follows:
 1. The research has identified the presence of both bicycle-sharing hotspots and coldspots, with regard to bicycle pick-up and return locations.
 2. The outcomes of hotspot and coldspot identification underscore the significant role that bicycle sharing plays in integrating with metro transit systems. Furthermore, there is a higher frequency of bicycle trips originating from metro stations.
 3. The categorization of 31 high-overloading hotspots and 742 high-underloading coldspots has illuminated the imbalance between supply and demand within these hotspots.
+
+
+**Citation**
+Please refer to our paper.
+@misc{zhang2024navigating,
+      title={Navigating the Congestion Maze: Geospatial Analysis and Travel Behavior Insights for Dockless Bike-Sharing Systems in Xiamen}, 
+      author={Xuxilu Zhang and Lingqi Gu and Nan Zhao},
+      year={2024},
+      eprint={2401.03987},
+      archivePrefix={arXiv},
+      primaryClass={stat.AP}
+}
